@@ -1,0 +1,6 @@
+Display a text that tells the user what they are going to choose, rock, paper or scissors
+Display a input field where the user can write their choice
+Runs a function that genereates a random number from 0.0 to 0.9
+Select one of the options, each with a 33.33_% probability
+Compare with the user selection with the randomly selected
+Show if the user wins, loses or tie
