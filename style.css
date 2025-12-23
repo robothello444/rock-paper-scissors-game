@@ -1,0 +1,117 @@
+:root {
+    --gray: #c5c3c6;
+    --lightGray: #afafaf;
+    --darkGray: #46494c;
+    --blueGray: #6488a3;
+    --lightBlue: #a3cae9;
+}
+
+
+body {
+    margin: 0;
+    background-color: var(--lightBlue);
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    opacity: 30%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    background-color: var(--darkGray);
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-choice {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 50px
+}
+
+.btn-container {
+    background-color: var(--darkGray);
+    max-width: 120px;
+    max-height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 5px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.btn-container > div {
+    width: 100%;
+    height: 40px;
+    font-size: large;
+    text-align: center;
+    color: white;
+    border-radius: 0;
+    font-weight: bolder;
+    border: 3px solid var(--blue);
+    transition-duration: 0.5ms;
+    cursor: auto;
+}
+
+.btn-container:hover {
+    background-color: #878787;
+    color: white;    
+}
+
+.btn-container:active {
+    background-color: #90b5d1;
+}
+
+.results-container {
+    display: flex;
+    justify-content: center;
+}
+
+.results-text-container {
+    display: flex;
+    background-color: var(--blueGray);
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+    padding: 10px;
+    border: 3px solid white;
+    gap: 5px;
+}
+
+.results-text {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.round-text, .game-winner {
+    font-weight: bold;
+}
+
+.game-winner {
+    font-size: x-large;
+}
